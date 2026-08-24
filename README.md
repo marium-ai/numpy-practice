@@ -38,6 +38,14 @@ This repository contains my beginner-level NumPy practice and exercises.
 * `reshape()`
 * `flatten()`
 * `ravel()`
+* `np.insert()`
+* `np.append()`
+* `np.delete()`
+* `np.concatenate()`
+* `np.vstack()`
+* `np.hstack()`
+* `np.stack()`
+* Understanding `axis=0` and `axis=1`
 
 ### Mathematical Operations
 
@@ -69,9 +77,11 @@ numpy-practice/
 ├── 7.py
 ├── 8.py
 ├── 9.py
+├── 10.py
+├── 11.py
+├── 12.py
+├── 13.py
 └── README.md
-```
-
 ## 🎯 Goal
 
 Build a strong foundation in NumPy before moving toward more advanced Python, Data Science, and AI/ML concepts.
