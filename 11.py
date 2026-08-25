@@ -6,6 +6,6 @@ arr = np.array([
     [7, 8, 9]
 ])
 print(arr)
-new_arr = np.append(arr, [[10, 11, 12]], axis=None)
+new_arr = np.append(arr, [[10, 11, 12]], axis=0)
 
 print(new_arr)

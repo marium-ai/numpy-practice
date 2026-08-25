@@ -6,5 +6,3 @@ print(arr[arr > 30])
 print(arr[arr == 30])
 print(arr[arr != 30])
 print(arr[(arr > 20) & (arr < 50)])
-#RESHAPING AND MANIPULATING ARRAYS
-           
