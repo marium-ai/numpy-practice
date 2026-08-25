@@ -45,7 +45,7 @@ This repository contains my beginner-level NumPy practice and exercises.
 * `np.vstack()`
 * `np.hstack()`
 * `np.stack()`
-* `np.split()'
+* `np.split()`
 * Understanding `axis=0` and `axis=1`
 
 ### Mathematical Operations
