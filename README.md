@@ -1,6 +1,6 @@
-# numpy-practice
-🔢 My NumPy learning journey
 # NumPy Practice
+
+🔢 My NumPy learning journey
 
 This repository contains my beginner-level NumPy practice and exercises.
 
@@ -64,6 +64,27 @@ This repository contains my beginner-level NumPy practice and exercises.
 * `np.max()`
 * Other basic aggregate functions
 
+### Vectorization
+
+* Vectorized operations
+* Performing array operations without explicit loops
+* Element-wise operations
+
+### Broadcasting
+
+* Broadcasting basics
+* Scalar broadcasting
+* 1D + 2D broadcasting
+* Broadcasting with addition and subtraction
+* Understanding compatible shapes
+* Broadcasting rules
+
+### Handling Missing Values
+
+* `np.nan`
+* `np.isnan()`
+* `np.nanmean()`
+
 ## 🗂️ Practice Files
 
 ```text
@@ -82,7 +103,13 @@ numpy-practice/
 ├── 11.py
 ├── 12.py
 ├── 13.py
+├── 14.py
+├── 15.py
+├── 16.py
+├── 17.py
 └── README.md
+```
+
 ## 🎯 Goal
 
 Build a strong foundation in NumPy before moving toward more advanced Python, Data Science, and AI/ML concepts.
