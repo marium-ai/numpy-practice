@@ -2,7 +2,7 @@
 
 🔢 My NumPy learning journey
 
-This repository contains my beginner-level NumPy practice and exercises.
+This repository contains my beginner-level NumPy practice, exercises, and mini projects.
 
 ## 📚 Topics I Have Learned
 
@@ -45,7 +45,7 @@ This repository contains my beginner-level NumPy practice and exercises.
 * `np.vstack()`
 * `np.hstack()`
 * `np.stack()`
-* `np.split()`
+* `np.array_split()`
 * Understanding `axis=0` and `axis=1`
 
 ### Mathematical Operations
@@ -79,11 +79,41 @@ This repository contains my beginner-level NumPy practice and exercises.
 * Understanding compatible shapes
 * Broadcasting rules
 
-### Handling Missing Values
+### Handling Missing & Special Values
 
 * `np.nan`
 * `np.isnan()`
 * `np.nanmean()`
+* `np.inf`
+* `-np.inf`
+* Understanding infinity values
+* Detecting and handling `NaN` and infinite values
+
+## 🚀 Mini Projects
+
+### Student Marks Analyzer
+
+A beginner-level NumPy project that analyzes student marks.
+
+**Features:**
+
+* Calculate total marks of each student
+* Calculate average marks
+* Find the highest total score
+* Find the top student
+* Calculate subject-wise averages
+* Identify passing students using Boolean indexing
+* Filter marks of passing students
+
+**NumPy concepts used:**
+
+* `np.sum()`
+* `np.mean()`
+* `np.max()`
+* `np.argmax()`
+* `axis=0`
+* `axis=1`
+* Boolean indexing
 
 ## 🗂️ Practice Files
 
@@ -107,6 +137,8 @@ numpy-practice/
 ├── 15.py
 ├── 16.py
 ├── 17.py
+├── 18.py
+├── student_marks.py
 └── README.md
 ```
 
