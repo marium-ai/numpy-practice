@@ -89,6 +89,19 @@ This repository contains my beginner-level NumPy practice, exercises, and mini p
 * Understanding infinity values
 * Detecting and handling `NaN` and infinite values
 
+### Random Number Generation
+
+* `np.random.randint()`
+* `np.random.rand()`
+* `np.random.randn()`
+* `np.random.choice()`
+* `np.random.seed()`
+* Generating random integers
+* Generating random floating-point numbers
+* Generating random 1D and 2D arrays
+* Selecting random values from an array
+* Creating reproducible random sequences using seeds
+
 ## 🚀 Mini Projects
 
 ### Student Marks Analyzer
@@ -138,6 +151,9 @@ numpy-practice/
 ├── 16.py
 ├── 17.py
 ├── 18.py
+├── 19.py
+├── 20.py
+├── 21.py
 ├── student_marks.py
 └── README.md
 ```
@@ -150,7 +166,3 @@ Build a strong foundation in NumPy before moving toward more advanced Python, Da
 
 * Python
 * NumPy
-
----
-
-**Learning by practicing, one concept at a time.**
