@@ -102,6 +102,42 @@ This repository contains my beginner-level NumPy practice, exercises, and mini p
 * Selecting random values from an array
 * Creating reproducible random sequences using seeds
 
+### Conditional Operations
+
+* `np.where()`
+* Conditional filtering with `np.where()`
+* Multiple conditions using nested `np.where()`
+* `np.select()` for multiple conditions
+
+### Unique Values
+
+* `np.unique()`
+* Finding unique values
+* `return_counts=True`
+* Counting occurrences of values
+
+### Sorting & Searching
+
+* `np.sort()`
+* Sorting in ascending order
+* Sorting in descending order
+* `np.argsort()`
+* Understanding sorting indexes
+* `np.argmax()`
+* Finding the index of the maximum value
+* `np.argmin()`
+* Finding the index of the minimum value
+* `np.nonzero()`
+* Finding indexes of non-zero elements
+
+### Matrix Operations
+
+* `np.dot()`
+* 1D dot product
+* 2D matrix multiplication
+* Row × Column multiplication
+* Understanding matrix multiplication basics
+
 ## 🚀 Mini Projects
 
 ### Student Marks Analyzer
@@ -154,6 +190,12 @@ numpy-practice/
 ├── 19.py
 ├── 20.py
 ├── 21.py
+├── 22.py
+├── 23.PY
+├── 24.py
+├── 25.py
+├── 26.py
+├── 27.py
 ├── student_marks.py
 └── README.md
 ```
