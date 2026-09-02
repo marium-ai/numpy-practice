@@ -15,5 +15,6 @@ B = np.array([
 ])
 
 result = np.dot(A, B)
-
+resullt2= a@b
+print(resullt2)
 print(result)
