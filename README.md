@@ -60,9 +60,11 @@ This repository contains my beginner-level NumPy practice, exercises, and mini p
 
 * `np.sum()`
 * `np.mean()`
+* `np.median()`
+* `np.std()`
+* `np.var()`
 * `np.min()`
 * `np.max()`
-* Other basic aggregate functions
 
 ### Vectorization
 
@@ -135,8 +137,26 @@ This repository contains my beginner-level NumPy practice, exercises, and mini p
 * `np.dot()`
 * 1D dot product
 * 2D matrix multiplication
+* `@` matrix multiplication
 * Row × Column multiplication
 * Understanding matrix multiplication basics
+* Transpose using `.T`
+
+### Linear Algebra
+
+* `np.linalg.det()`
+* Calculating the determinant of a 2×2 matrix
+* `np.linalg.inv()`
+* Calculating the inverse of a 2×2 matrix
+* `np.linalg.solve()`
+* Solving systems of linear equations
+
+### Views & Copies
+
+* Understanding references with `b = a`
+* Creating views with `.view()`
+* Creating independent copies with `.copy()`
+* Understanding shared data between arrays
 
 ## 🚀 Mini Projects
 
@@ -196,6 +216,11 @@ numpy-practice/
 ├── 25.py
 ├── 26.py
 ├── 27.py
+├── 28.py
+├── 29.py
+├── 30.py
+├── 31.py
+├── 32.py
 ├── student_marks.py
 └── README.md
 ```
@@ -208,3 +233,8 @@ Build a strong foundation in NumPy before moving toward more advanced Python, Da
 
 * Python
 * NumPy
+
+```
+
+Ye wala **copy karke README.md mein paste** kar do. ✔️
+```
