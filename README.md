@@ -184,6 +184,40 @@ A beginner-level NumPy project that analyzes student marks.
 * `axis=1`
 * Boolean indexing
 
+### Patient Data Analyzer
+
+A real-world-style beginner NumPy project that analyzes fictional patient data.
+
+**Features:**
+
+* Store patient information using NumPy arrays
+* Detect missing values using `np.isnan()`
+* Detect invalid numerical values
+* Handle missing and invalid values using median values
+* Calculate statistical summaries
+* Filter patients using conditions
+* Find extreme values using `np.argmax()` and `np.argmin()`
+* Categorize patients using `np.where()`
+* Rank patients using `np.argsort()`
+* Generate a final analysis report
+
+**NumPy concepts used:**
+
+* `np.isnan()`
+* `np.nanmedian()`
+* Boolean indexing
+* `np.where()`
+* `np.mean()`
+* `np.median()`
+* `np.min()`
+* `np.max()`
+* `np.std()`
+* `np.argmax()`
+* `np.argmin()`
+* `np.argsort()`
+
+> Note: The patient data used in this project is fictional and is intended only for NumPy learning and data-analysis practice.
+
 ## 🗂️ Practice Files
 
 ```text
@@ -220,8 +254,8 @@ numpy-practice/
 ├── 29.py
 ├── 30.py
 ├── 31.py
-├── 32.py
 ├── student_marks.py
+├── patient_data_analyzer.py
 └── README.md
 ```
 
@@ -233,8 +267,3 @@ Build a strong foundation in NumPy before moving toward more advanced Python, Da
 
 * Python
 * NumPy
-
-```
-
-Ye wala **copy karke README.md mein paste** kar do. ✔️
-```
